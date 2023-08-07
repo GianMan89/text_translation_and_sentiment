@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "text-translation-and-sentiment"
+version = "0.1.0"
+description = ""
+authors = ["Gianluca Manca <gianluca.manca89@gmail.com>"]
+license = "MIT-License"
+readme = "README.md"
+packages = [{include = "text_translation_and_sentiment"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.3"
+transformers = "^4.31.0"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
